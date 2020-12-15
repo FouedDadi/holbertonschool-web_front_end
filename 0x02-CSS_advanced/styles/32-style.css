@@ -362,7 +362,7 @@ ul.row {
   float: left;
   padding: 0.5rem;
 }
-[data-section-theme="“dark”"] {
+[data-section-theme="dark"] {
   --text-color: var(--color-white);
   --section-title-color: var(--color-white);
   background-color: var(--color-black);
@@ -459,7 +459,7 @@ ul.row {
   text-decoration: none;
   padding-top: 45%;
 }
-.card-work:.card-title a::after {
+.card-work .card-title a::after {
   position: absolute;
   top: 0;
   left: 0;
