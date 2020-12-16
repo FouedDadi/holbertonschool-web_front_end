@@ -1,0 +1,10 @@
+/* handling font-size of body and h1 inside body and class smaller of h1 inside body */
+body {
+  font-size: 14px;
+  h1 {
+    font-size: 16px;
+    &.smaller {
+      font-size: 12px;
+    }
+  }
+}

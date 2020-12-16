@@ -1,0 +1,8 @@
+/* create classes with different width */
+@for $value from 1 to 5 {
+  $width: percentage(1 / $value);
+
+  .col-#{$value} {
+    width: $width;
+  }
+}

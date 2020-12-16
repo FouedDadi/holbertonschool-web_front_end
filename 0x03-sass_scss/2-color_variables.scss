@@ -1,0 +1,13 @@
+/* use 2 sass variable to assigns background-color and color to html tags */
+$txt-color: #3d3d3d;
+$bg-color: #6d6d6d;
+body {
+  color: $txt-color;
+  background-color: $bg-color;
+}
+p {
+  color: $txt-color;
+}
+h2 {
+  background-color: $bg-color;
+}

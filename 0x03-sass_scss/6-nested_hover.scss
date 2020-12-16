@@ -1,0 +1,7 @@
+/* handling button color and color when hovering over it */
+button {
+  color: #ff0000;
+  &:hover {
+    color: #00ff00;
+  }
+}

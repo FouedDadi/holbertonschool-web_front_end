@@ -1,0 +1,8 @@
+/* no margin or padding on body and 10px margin on p inside body */
+body {
+  padding: 0px;
+  margin: 0px;
+  p {
+    margin: 10px;
+  }
+}

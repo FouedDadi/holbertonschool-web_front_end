@@ -1,0 +1,11 @@
+/* importing colors colors from file to use them in class */
+@import "10-colors.scss";
+.red {
+  color: $red;
+}
+.green {
+  color: $green;
+}
+.blue {
+  color: $blue;
+}

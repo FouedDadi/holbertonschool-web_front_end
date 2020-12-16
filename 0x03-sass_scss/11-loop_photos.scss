@@ -1,0 +1,7 @@
+/* import $list-names from file and assigns the bg image based on names from the list */
+@import "11-photos.scss";
+@each $nm in $list-names {
+  .photo-#{$nm} {
+    background: image-url("photos/#{$nm}.jpg") no-repeat;
+  }
+}
