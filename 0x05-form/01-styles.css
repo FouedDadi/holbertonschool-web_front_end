@@ -802,9 +802,10 @@ ul.row {
 /*** FORM ***/
 /* Comment section
     ============================= */
+
 .post-comments {
   width: 80%;
-  padding: 10rem 0 0 auto;
+  margin: 10rem 0 0 auto;
   padding-left: 7rem;
 }
 
@@ -813,7 +814,7 @@ ul.row {
 }
 
 /* Basic form
-    ============================= */
+      ============================= */
 
 form {
   display: flex;
