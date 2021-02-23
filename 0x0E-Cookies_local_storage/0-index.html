@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="utf-8" />
+    <title>login to the website</title>
+  </head>
+  <body>
+    <h1>login to the website</h1>
+    <div class="form">
+      <input
+        type="text"
+        id="firstname"
+        class="firstname"
+        placeholder="Firstname"
+      />
+      <input type="text" class="email" placeholder="Email" id="email" />
+      <button onclick="setCookies()" class="login">Log me in</button>
+    </div>
+    <h1>Cookies</h1>
+    <button onclick="showCookies()">Show the Cookies</button>
+    <script type="application/javascript">
+      function setCookies() {
+        var Firstname = document.getElementsByClassName("firstname")[0].value;
+        var Email = document.getElementsByClassName("email")[0].value;
+        document.cookie = `firstname=${Firstname}`;
+        document.cookie = `email=${Email}`;
+      }
+      function showCookies() {
+        const $p = document.createElement("P");
+        $p.innerHTML = `Cookies: ${document.cookie}`;
+        $("body").append($p);
+      }
+    </script>
+  </body>
+</html>

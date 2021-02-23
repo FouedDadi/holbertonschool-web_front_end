@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "startdev": "webpack serve --mode development --env development --hot --port 3000"
+  },
+  "devDependencies": {
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
+  }
+}
