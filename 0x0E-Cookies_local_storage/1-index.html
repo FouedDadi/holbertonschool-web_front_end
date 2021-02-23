@@ -28,7 +28,7 @@
       function setCookies() {
         var today = new Date();
         var expire = new Date();
-        expire.setTime(today.getTime() + 3600000 * 24);
+        expire.setTime(today.getTime() + 3600000 * 24 * 10);
         var epires = ";expires=" + expire.toGMTString();
 
         var Firstname = document.getElementsByClassName("firstname")[0].value;
