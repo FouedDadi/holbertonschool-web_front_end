@@ -29,7 +29,7 @@
         var today = new Date();
         var expire = new Date();
         expire.setTime(today.getTime() + 3600000 * 24 * 10);
-        var epires = ";expires=" + expire.toGMTString();
+        var expires = ";expires=" + expire.toUTCString();
 
         var Firstname = document.getElementsByClassName("firstname")[0].value;
         var Email = document.getElementsByClassName("email")[0].value;
